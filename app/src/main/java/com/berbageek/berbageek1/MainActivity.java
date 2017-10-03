@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         // load image into image view
         Picasso.with(MainActivity.this)
                 .load("http://berbagaigadget.com/wp-content/uploads/2016/02/100-Gambar-dp-bbm-kucing-lucu-dan-gemesin-7.jpg")
-//                .load(R.drawable.ic_home_black_48dp)
                 .into(mainImage);
     }
 
